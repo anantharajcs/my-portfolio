@@ -37,7 +37,8 @@ const Home = () => {
           <img
             src={myImage}
             alt="Anantharaj"
-            className='w-72 h-72 object-cover rounded-full shadow-lg'
+            className='w-96 h-96 object-contain rounded-full shadow-lg bg-white p-2'
+
           />
         </div>
       </div>

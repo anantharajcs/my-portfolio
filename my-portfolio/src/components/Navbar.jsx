@@ -1,7 +1,7 @@
 import { NavLink, Link } from 'react-router-dom';
 
 const linkCls =
-  'text-lg text-gray-700 hover:text-gray-500 hover:underline transition duration-200';
+  'text-lg text-black hover:text-gray-500 hover:underline transition duration-200';
 
 export default function Navbar() {
   return (
