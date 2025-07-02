@@ -20,7 +20,7 @@ const About =()=>{
                     <SiTailwindcss className="text-sky-400 text-5xl" />
                     <FaBootstrap className="text-purple-600 text-5xl" />
                     <FaGitAlt className="text-red-600 text-5xl" />
-                    <FaGithub className="text-gray-800 dark:text-gray-100 text-5xl" />
+                    <FaGithub className="text-gray-800 text-5xl" />
                     </div>
                     </div>
                 </div>
