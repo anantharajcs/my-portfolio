@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
     return(
-        <section>
+        <section  className="pt-32 px-4">
         <div>
             <div>
             <h1 className=' flex items-center justify-center text-gray-500 text-3xl font-bold  py-10 px-4 text-center'>Projects</h1>
