@@ -6,13 +6,13 @@ const About =()=>{
     return (
         
             <section className='px-5 py-5'>
-                <div className='flex items-center justify-center py-40 px-40 '>
-                    <div className='flex flex-col items-center p-6 space-y-5'>
+                <div className='flex items-center justify-center py-20 px-4 px-40 '>
+                    <div className='flex flex-col items-center p-4 space-y-6 max-w-3xl'>
                     <h2 className='text-gray-500 text-3xl font-bold'>About Me</h2>
-                    <p className=''> Hello I'm <span className='text-gray-700 font-bold'>Anantharaj</span > a fresher <span className='text-gray-700 font-bold'> Front-End Developer</span> I have good knowledge in 
+                    <p className='text-center text-base md:text-lg leading-relaxed text-gray-700'> Hello I'm <span className='text-gray-700 font-bold'>Anantharaj</span > a fresher <span className='text-gray-700 font-bold'> Front-End Developer</span> I have good knowledge in 
                     <span className='text-gray-700 font-bold'>HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, Git, and GitHub
                     </span> I’m passionate about creating responsive websites and constantly working on improving my skills.</p>
-                    <div className="flex space-x-6">
+                    <div className="flex flex-wrap md:space-x-6">
                     <FaHtml5 className="text-orange-600 text-5xl" />
                     <FaCss3Alt className="text-blue-600 text-5xl" />
                     <FaJs className="text-yellow-400 text-5xl" />
