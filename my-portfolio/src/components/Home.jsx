@@ -1,21 +1,17 @@
-import React from 'react';
+import React from 'react'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import myImage from '../assets/my-profile-png.jpeg';
 
-const Home = () => {
-  return (
-    <section className='px-5 py-10'>
-      <div className='flex flex-col md:flex-row items-center justify-between py-10 md:py-20 px-4 md:px-20 max-w-6xl mx-auto'>
-        
-        {/* Left side - Content */}
-        <div className='flex flex-col items-start space-y-6 md:w-1/2'>
-          <h1 className='text-3xl'>
-            Hi I'm <span className='text-6xl font-bold text-gray-500 hover:text-gray-400'>Anantharaj</span>
-          </h1>
-          <h2 className='text-3xl'>I'm a Front End Web Developer</h2>
+const Home =() => {
+    return(
+        <section className='px-5 py-5 '>
+            <div className='flex items-center justify-center py-40 '>
+                <div className='flex flex-col items-center p-6 space-y-5 ' >
+                <h1 className='text-3xl space-x-4 '>Hi I'm <span className='text-6xl font-bold text-gray-500 hover:text-gray-400' >Anantharaj</span></h1>
+                
+                <h2 className='text-3xl space-x-4'>i'm Front End Web Developer</h2>
+                <div className="flex space-x-6">
 
-          <div className='flex space-x-6'>
-            <a
+                <a
               href="https://www.linkedin.com/in/ananth-raj-r-1427a3352/"
               target="_blank"
               rel="noopener noreferrer"
@@ -23,27 +19,16 @@ const Home = () => {
               <FaLinkedin className="text-gray-500 text-4xl hover:text-gray-700" />
             </a>
             <a
-              href="https://github.com/anantharajcs"
+               
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-gray-500 text-4xl hover:text-gray-700" />
             </a>
-          </div>
-        </div>
-
-        {/* Right side - Image */}
-        <div className='mt-10 md:mt-0 md:w-1/2 flex justify-center'>
-          <img
-            src={myImage}
-            alt="Anantharaj"
-            className=' md:w-96 md:h-96 sm:w-72 sm:h-72 object-contain rounded-full shadow-lg bg-white p-2'
-
-          />
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Home;
+            </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+export default Home;  
