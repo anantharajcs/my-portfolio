@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 function App () {
 
   return (
-   <BrowserRouter  basename="/my-portfolio">
+   <BrowserRouter basename="/my-portfolio">
    <Navbar/>
    <Routes>
      <Route index element={<Home/>} />
