@@ -8,7 +8,7 @@ const Projects = () => {
             <div>
             <h1 className=' flex items-center justify-center text-gray-500 text-3xl font-bold  py-10 px-4 text-center'>Projects</h1>
 
-            <h2 className='text-gray-500 text-2xl font-bold py-4 px-4'><a href="https://anantharajcs.github.io/e-commerce-website/">E-Commerce-Website</a></h2>
+            <h2 className='text-gray-500 hover:text-gray-300 text-2xl font-bold py-4 px-4'><a href="https://anantharajcs.github.io/e-commerce-website/">E-Commerce-Website</a></h2>
             <p className="py-4 px-4">
   A responsive E-Commerce website built using <span className="font-semibold text-gray-700">React.js, Vite, Tailwind CSS</span>, and <span className="font-bold text-gray-700">React Router DOM</span>. It includes modern UI, product listing, details, and cart functionality. This project highlights my skills in building reusable components, using hooks, and managing SPA routing with a clean, responsive design.
 </p>
