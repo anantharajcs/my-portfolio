@@ -5,7 +5,7 @@ import myImage from '../assets/my-profile-png.jpeg';
 const Home = () => {
   return (
     <section className='px-5 py-10'>
-      <div className='flex flex-col md:flex-row items-center justify-between py-20 px-4 px-40 max-w-6xl mx-auto'>
+      <div className='flex flex-col md:flex-row items-center justify-between py-10 md:py-20 px-4 md:px-20 max-w-6xl mx-auto'>
         
         {/* Left side - Content */}
         <div className='flex flex-col items-start space-y-6 md:w-1/2'>
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={myImage}
             alt="Anantharaj"
-            className='w-72 h-72 md:w-96 md:h-96 object-contain rounded-full shadow-lg bg-white p-2'
+            className=' md:w-96 md:h-96 sm:w-72 sm:h-72 object-contain rounded-full shadow-lg bg-white p-2'
 
           />
         </div>
