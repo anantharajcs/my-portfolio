@@ -7,11 +7,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-gray-100 shadow-md z-50">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-4 space-y-4 md:space-y-0">
 
-        <Link to="/" className="text-5xl sm:text-5xl font-bold text-black hover:text-gray-500">
+        <Link to="/" className="text-5xl font-bold text-black hover:text-gray-500">
           Anantharaj
         </Link>
 
-        <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 md:space-x-10">          <NavLink end to="/"        className={linkCls}>Home</NavLink>
+        <div className="flex items-center space-x-10">
+          <NavLink end to="/"        className={linkCls}>Home</NavLink>
           <NavLink     to="about"    className={linkCls}>About</NavLink>
           <NavLink     to="projects" className={linkCls}>Projects</NavLink>
           <NavLink     to="contact"  className={linkCls}>Contact</NavLink>
