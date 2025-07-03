@@ -10,7 +10,7 @@ const Home = () => {
         {/* Left Side Content */}
         <div className="flex flex-col items-start space-y-6 md:w-1/2 max-w-md">
           <h1 className="text-3xl font-normal">
-            Hi I'm{' '}
+            Hi I'm
             <span className="text-6xl font-bold text-gray-500 hover:text-gray-400">
               Anantharaj
             </span>
