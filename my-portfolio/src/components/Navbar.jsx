@@ -11,8 +11,7 @@ export default function Navbar() {
           Anantharaj
         </Link>
 
-        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 items-center  md:space-x-10">
-          <NavLink end to="/"        className={linkCls}>Home</NavLink>
+        <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 md:space-x-10">          <NavLink end to="/"        className={linkCls}>Home</NavLink>
           <NavLink     to="about"    className={linkCls}>About</NavLink>
           <NavLink     to="projects" className={linkCls}>Projects</NavLink>
           <NavLink     to="contact"  className={linkCls}>Contact</NavLink>
