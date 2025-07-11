@@ -9,7 +9,7 @@ const About =()=>{
                 <div className='flex items-center justify-center py-20 px-4 px-40 '>
                     <div className='flex flex-col items-center p-4 space-y-6 max-w-3xl'>
                     <h2 className='text-gray-500 text-3xl font-bold'>About Me</h2>
-                    <p className='text-center text-base md:text-lg leading-relaxed text-gray-700'> Hello I'm <span className='text-gray-700 font-bold'>Anantharaj</span > a fresher <span className='text-gray-700 font-bold'> Front-End Developer</span> I have good knowledge in 
+                    <p className="text-lg leading-relaxed"> Hello I'm <span className='text-gray-700 font-bold'>Anantharaj</span > a fresher <span className='text-gray-700 font-bold'> Front-End Developer</span> I have good knowledge in 
                     <span className='text-gray-700 font-bold'>HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, Git, and GitHub
                     </span> I’m passionate about creating responsive websites and constantly working on improving my skills.</p>
                     <div className="flex flex-wrap md:space-x-6">
