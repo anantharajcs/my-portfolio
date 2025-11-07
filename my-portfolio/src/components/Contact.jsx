@@ -37,7 +37,7 @@ const Contact = () => {
          <FaPhone />
           </a>
             </div>
-            <h1>Phone Number: 7092027057</h1>
+            <h1>Phone Number: 8870925421</h1>
                 </div>
             </div>
         </section>
