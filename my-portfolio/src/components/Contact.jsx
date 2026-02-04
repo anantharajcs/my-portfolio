@@ -33,13 +33,14 @@ const Contact = () => {
             >
               <SiGmail className="text-gray-500 text-4xl hover:text-gray-700" />
             </a>
-            <a href="tel: 7092027057 " className="text-green-600 hover:text-green-800 transition duration-300">
+            <a href="tel: 8870925421 " className="text-green-600 hover:text-green-800 transition duration-300">
          <FaPhone />
           </a>
+        </div>
+
+            <h1>Phone Number: 8870925421</h1>
+                </div>
             </div>
-            <h1>Phone Number: 7092027057</h1>
-            </div>
-              </div>
         </section>
     );
 }
