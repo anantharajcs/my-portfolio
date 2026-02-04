@@ -12,7 +12,7 @@ import {
   
   const About = () => {
     return (
-      <section className='px-5 py-5 pt-32'>
+      <section className='px-5 py-5 pt-10'>
         <div className='flex items-center justify-center py-20 px-4 md:px-10'>
           <div className='flex flex-col items-center p-4 space-y-6 max-w-3xl'>
             <h2 className='text-gray-500 text-3xl font-bold'>About Me</h2>

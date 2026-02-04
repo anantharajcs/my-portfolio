@@ -7,7 +7,7 @@ const Home = () => {
     <section className="px-5 py-16 pt-40 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center px-20 gap-10 md:gap-16">
         
-        {/* Left Side Content */}
+      
         <div className="flex flex-col items-start space-y-6 md:w-1/2 max-w-md">
           <h1 className="text-3xl font-normal">
             Hi I'm
@@ -35,12 +35,12 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Side Image */}
+
         <div className="flex justify-center md:w-1/2">
           <img
             src={myImage}
             alt="Anantharaj"
-            className='w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 object-contain rounded-full shadow-lg bg-white p-2'
+            className='w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 object-fit rounded-full shadow-lg bg-white p-2'
           />
         </div>
       </div>
