@@ -1,10 +1,14 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import myImage from '../assets/my-image.jpeg';
+import myImage from '../assets/my-profile-img.jpeg'
 
 const Home = () => {
+ 
   return (
-    <section className="px-5 py-16 pt-40 bg-white">
+
+    <>
+     
+    <section className="px-5 py-16 pt-38 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center px-20 gap-10 md:gap-16">
         
       
@@ -45,6 +49,7 @@ const Home = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
