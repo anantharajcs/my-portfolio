@@ -19,7 +19,7 @@ const Footer = () => {
             <FaGithub className="hover:text-gray-300" />
           </a>
           <a href="mailto:anantharaj@gmail.com">
-            <SiGmail className="hover:text-red-400" />
+            <SiGmail className="hover:text-red-600" />
           </a>
           <a href="tel:+917092027057">
             <FaPhone className="hover:text-green-400" />
