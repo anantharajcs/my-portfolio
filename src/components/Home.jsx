@@ -8,33 +8,34 @@ const Home = () => {
 
     <>
      
-    <section className="px-5 py-16 pt-38 bg-white">
+    <section className="px-5 py-16 pt-38 bg-slate-900">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center px-20 gap-10 md:gap-16">
         
       
         <div className="flex flex-col items-start space-y-6 md:w-1/2 max-w-md">
-          <h1 className="text-3xl font-normal">
-            Hi I'm
-            <span className="text-6xl font-bold text-gray-500 hover:text-gray-400">
-              Anantharaj
+          <h1 className="text-3xl text-slate-300 font-normal">
+            Hi, I'm
+            <br />
+            <span className="text-6xl font-bold text-sky-400 hover:text-sky-600">
+             <span className='text-white'>Anan</span>tharaj
             </span>
           </h1>
-          <h2 className="text-3xl text-black">I'm a Front End Web Developer</h2>
-
+          <h2 className="text-3xl text-sky-400">I'm a Front End Web Developer</h2>
+           <p className='text-slate-300'>i build responsive and modern web experiences <br /> useing React, Tailwind CSS and modern web technologies.</p>
           <div className="flex space-x-6 pt-2">
             <a
               href="https://www.linkedin.com/in/ananth-raj-r-1427a3352/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-gray-500 text-4xl hover:text-gray-700" />
+              <FaLinkedin className="text-sky-400 text-4xl hover:text-sky-700" />
             </a>
             <a
               href="https://github.com/anantharajcs"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-gray-500 text-4xl hover:text-gray-700" />
+              <FaGithub className="text-sky-400 text-4xl hover:text-sky-700" />
             </a>
           </div>
         </div>
@@ -44,7 +45,7 @@ const Home = () => {
           <img
             src={myImage}
             alt="Anantharaj"
-            className='w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 object-contain rounded-full shadow-lg bg-white p-2'
+            className="w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 object-cover rounded-full border-4 border-sky-400 shadow-lg"
           />
         </div>
       </div>

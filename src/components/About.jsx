@@ -12,18 +12,18 @@ import {
   
   const About = () => {
     return (
-      <section className='px-5 py-5 pt-15'>
-        <div className='flex items-center justify-center py-20 px-4 md:px-10'>
+      <section className='px-5 py-5 pt-5 bg-slate-900'>
+        <div className='flex items-center justify-center py-7 px-4 md:px-10'>
           <div className='flex flex-col items-center p-4 space-y-6 max-w-3xl'>
-            <h2 className='text-gray-500 text-3xl font-bold'>About Me</h2>
+            <h2 className='text-white text-3xl font-bold'>About <span className= "text-sky-400">Me</span></h2>
   
-            <p className="text-lg leading-relaxed text-justify text-gray-700">
-              Hello! I'm <span className="font-bold text-black">Anantharaj</span>, a motivated and enthusiastic 
-              <span className="font-bold text-black"> Front-End Developer</span> who loves building responsive and user-friendly websites.
+            <p className="text-lg leading-relaxed text-justify text-slate-300">
+              Hello! I'm <span className="font-bold text-sky-400">Anantharaj</span>, a motivated and enthusiastic 
+              <span className="font-bold text-sky-400"> Front-End Developer</span> who loves building responsive and user-friendly websites.
               Although I’m a fresher, I’ve gained solid hands-on experience in designing clean, accessible web interfaces using modern technologies.
               <br /><br />
               I have a good understanding of 
-              <span className="font-bold text-black"> HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, Git, and GitHub.</span> 
+              <span className="font-bold text-sky-400"> HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, Git, and GitHub.</span> 
               I enjoy learning new technologies and continuously improving my coding and design skills.
               <br /><br />
               My aim is to contribute to real-world projects where I can apply my skills, collaborate with teams, and grow into a professional developer who delivers impactful web experiences.
@@ -37,7 +37,7 @@ import {
               <SiTailwindcss className="text-sky-400 text-4xl" title="Tailwind CSS" />
               <FaBootstrap className="text-purple-600 text-4xl" title="Bootstrap" />
               <FaGitAlt className="text-red-600 text-4xl" title="Git" />
-              <FaGithub className="text-gray-800 text-4xl" title="GitHub" />
+              <FaGithub className="text-sky-400 text-4xl" title="GitHub" />
             </div>
           </div>
         </div>

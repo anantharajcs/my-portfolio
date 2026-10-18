@@ -4,12 +4,12 @@ import { SiGmail } from 'react-icons/si';
 
 const Contact = () => {
     return(
-        <section className='px-5 py-5 pt-10'>
+        <section className='px-5 py-5 pt-10 bg-slate-900'>
             <div className='flex items-center justify-center py-40  '>
                 <div className='flex flex-col items-center p-5 space-y-6' >
-                <h1 className='flex items-center justify-center text-gray-500 text-3xl font-bold'>Contact</h1>
+                <h1 className='flex items-center justify-center text-white text-3xl font-bold'>Con<span className='text-sky-400'>tect</span></h1>
                 
-                <h2 className='text-xl space-x-4'>Hi its My Contact</h2>
+                <h2 className='text-xl space-x-4 text-slate-300'>Hi its My Contact</h2>
                 <div className="flex space-x-6">
 
                 <a
@@ -17,28 +17,28 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-gray-500 text-4xl hover:text-gray-700" />
+              <FaLinkedin className="text-sky-400 text-4xl hover:text-sky-800" />
             </a>
             <a
               href="https://github.com/settings/profile"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-gray-500 text-4xl hover:text-gray-700" />
+              <FaGithub className="text-sky-400 text-4xl hover:text-sky-800" />
             </a>
             <a
               href="https://mail.google.com/mail/u/0/#inbox"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiGmail className="text-gray-500 text-4xl hover:text-gray-700" />
+              <SiGmail className="text-sky-400 text-4xl hover:text-sky-800" />
             </a>
             <a href="tel: 8870925421 " className="text-green-600 hover:text-green-800 transition duration-300">
          <FaPhone />
           </a>
         </div>
 
-            <h1>Phone Number: 8870925421</h1>
+            <h1 className='text-slate-300'>Phone Number: 8870925421</h1>
                 </div>
             </div>
         </section>

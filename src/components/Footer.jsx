@@ -4,7 +4,7 @@ import { SiGmail } from 'react-icons/si';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-6 mt-12">
+    <footer className="bg-gray-900 text-white py-6 mt-0">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         
         {/* Left Side - Name or Logo */}
